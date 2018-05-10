@@ -20,7 +20,8 @@ import { AppRoutingModule } from './app-routing.module'; // replace RouterModule
     BrowserModule,
     FormsModule,
     HttpModule,
-    InternalDefensesModule
+    InternalDefensesModule,
+    AppRoutingModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
